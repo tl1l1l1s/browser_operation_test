@@ -1,0 +1,29 @@
+# IDE files (IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Gradle
+.gradle/
+build/
+
+# Build files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Local configuration files
+# 민감한 정보(DB 접속 정보 등)가 포함될 수 있는
+# application-local.properties 같은 파일은 제외하는 것이 좋습니다.
+# application-*.properties
+# application-*.yml
